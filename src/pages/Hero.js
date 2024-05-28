@@ -57,10 +57,12 @@ const Hero = () => {
               Pay for the services you need to prioritize your mental
               well-being.
             </p>
-            <button className="bg-[#adbbda] text-black px-[30px] p-[5px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none inline-flex items-center font-serif">
+            <Link to="/ProfessionalSupport">
+            <button  className="bg-[#adbbda] text-black px-[30px] p-[5px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none inline-flex items-center font-serif">
               Click More
               <img src={arrow} alt="" className="object-scale-down h-5 w-7" />
             </button>
+            </Link>
           </div>
           <div
             className="flex flex-col 
