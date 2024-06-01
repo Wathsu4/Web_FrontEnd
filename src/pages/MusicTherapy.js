@@ -14,8 +14,9 @@ function MusicTheropy() {
   return (
     <div>
       <NavBar />
+
       <div className=" flex  pt-[120px]  justify-center">
-        <img className="h-auto  rounded-lg" src={mainimg} alt="" />
+        <img className="h-auto rounded-lg" src={mainimg} alt="" />
       </div>
       <p className="text-white bg-gradient-to-b from-[rgba(39,39,42,0.7)] to-[rgba(39,39,42,0.1)] text-center flex justify-center items-center font-sans border-solid border border-gray-400 px-[100px] py-[20px] mx-[300px] rounded-lg mb-20 ">
         At SoulCare+, we use music therapy to boost mental well-being. It's not
@@ -34,9 +35,9 @@ function MusicTheropy() {
           <img
             src={Emotional}
             alt=""
-            className="object-scale-down h-40 w-40 "
+            className="object-scale-down w-40 h-40 "
           />
-          <p className="font-bold text-center mb-5">
+          <p className="mb-5 font-bold text-center">
             Emotional Expression Music
           </p>
 
@@ -52,9 +53,9 @@ function MusicTheropy() {
           <img
             src={Meditation}
             alt=""
-            className="object-scale-down h-40 w-40 "
+            className="object-scale-down w-40 h-40 "
           />
-          <p className="font-bold text-center mb-5">Meditation Music</p>
+          <p className="mb-5 font-bold text-center">Meditation Music</p>
 
           <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer border-0 outline-none inline-flex items-center font-serif">
             Play
@@ -65,8 +66,8 @@ function MusicTheropy() {
           className="flex flex-col 
         w-1/5 mb-5  items-center bg-[#64748b] text-white rounded-[40px] mx-10 justify-between py-5"
         >
-          <img src={Mood} alt="" className="object-scale-down h-40 w-40 " />
-          <p className="font-bold text-center mb-5">Mood Regulation Music</p>
+          <img src={Mood} alt="" className="object-scale-down w-40 h-40 " />
+          <p className="mb-5 font-bold text-center">Mood Regulation Music</p>
           <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer border-0 outline-none inline-flex items-center font-serif">
             Play
             <img src={Play} alt="" className="object-scale-down h-5 w-7" />
@@ -76,8 +77,8 @@ function MusicTheropy() {
           className="flex flex-col 
         w-1/5 mb-5  items-center bg-[#3f3f46] text-white rounded-[40px] mx-10 justify-between py-5"
         >
-          <img src={Zen} alt="" className="object-scale-down h-40 w-40 " />
-          <p className="font-bold text-center mb-5">Zen Music</p>
+          <img src={Zen} alt="" className="object-scale-down w-40 h-40 " />
+          <p className="mb-5 font-bold text-center">Zen Music</p>
 
           <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none inline-flex items-center font-serif">
             Play
@@ -91,9 +92,9 @@ function MusicTheropy() {
           <img
             src={Relaxation}
             alt=""
-            className="object-scale-down h-40 w-40 "
+            className="object-scale-down w-40 h-40 "
           />
-          <p className="font-bold text-center mb-5">Relaxation Piano</p>
+          <p className="mb-5 font-bold text-center">Relaxation Piano</p>
 
           <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer border-0 outline-none inline-flex items-center font-serif">
             Play
@@ -104,8 +105,8 @@ function MusicTheropy() {
           className="flex flex-col 
         w-1/5 mb-5  items-center bg-[#78716c] text-white rounded-[40px] mx-10 justify-between py-5"
         >
-          <img src={Pain} alt="" className="object-scale-down h-40 w-40 " />
-          <p className="font-bold text-center mb-5">Pain Management Music</p>
+          <img src={Pain} alt="" className="object-scale-down w-40 h-40 " />
+          <p className="mb-5 font-bold text-center">Pain Management Music</p>
 
           <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer border-0 outline-none inline-flex items-center font-serif">
             Play

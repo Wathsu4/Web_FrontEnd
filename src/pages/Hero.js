@@ -18,9 +18,9 @@ const Hero = () => {
   return (
     <>
       <NavBar />
-      <div className=" hero  w-full">
+      <div className="w-full hero">
         <div className="text-center max-w-[800px] text-[#1a3857] pt-[150px] pb-[50px] m-0 font-bold text-2xl">
-          <h2 className="flex whitespace-nowrap overflow-hidden text-ellipsis ">
+          <h2 className="flex overflow-hidden whitespace-nowrap text-ellipsis ">
             A Comprehensive Web based Solution for Mental Well being
           </h2>
         </div>
@@ -39,7 +39,7 @@ const Hero = () => {
         <h1 className="flex mt-[80px] mb-[50px] text-black font-bold text-4xl font-sans">
           Our Services
         </h1>
-        <div className="flex flex-wrap justify-center  ">
+        <div className="flex flex-wrap justify-center ">
           <div
             className="flex flex-col 
         w-1/5 mb-5  items-center bg-blue-950 text-white rounded-[80px] mx-10 justify-between "
@@ -49,8 +49,8 @@ const Hero = () => {
               alt=""
               className="object-scale-down h-48 w-96 "
             />
-            <p className="font-bold text-center mb-5">Professional Support</p>
-            <p className="text-center text-xs w-full px-10 pb-10">
+            <p className="mb-5 font-bold text-center">Professional Support</p>
+            <p className="w-full px-10 pb-10 text-xs text-center">
               Get personalized professional support for your mental health needs
               on our website. Our team includes counselors, psychiatrists, and
               psychologists who offer therapy sessions and consultations online.
@@ -67,11 +67,11 @@ const Hero = () => {
         w-1/5 mb-5  items-center bg-[#78716c] text-white rounded-[80px] mx-10 justify-between"
           >
             <img src={annsup} alt="" className="object-scale-down h-48 w-96 " />
-            <p className="font-bold text-center mb-5">
+            <p className="mb-5 font-bold text-center">
               {" "}
               Anonymous Peer Support
             </p>
-            <p className="text-center text-xs w-full px-10 pb-10">
+            <p className="w-full px-10 pb-10 text-xs text-center">
               Find understanding and encouragement in our anonymous peer support
               service. Connect with others who share similar experiences in a
               safe and confidential space. Receive and provide support without
@@ -92,10 +92,10 @@ const Hero = () => {
               alt=""
               className="object-scale-down h-48 w-96 "
             />
-            <p className="font-bold text-center mb-5">
+            <p className="mb-5 font-bold text-center">
               Mental Health Assessment
             </p>
-            <p className="text-center text-xs w-full px-10 pb-10">
+            <p className="w-full px-10 pb-10 text-xs text-center">
               Through a series of questions and evaluations, our platform
               provides a deeper understanding of your mental health status and
               take proactive steps towards greater well-being. Access this
@@ -116,8 +116,8 @@ const Hero = () => {
               alt=""
               className="object-scale-down h-48 w-96 "
             />
-            <p className="font-bold text-center mb-5">Music Therapy</p>
-            <p className="text-center text-xs w-full px-10 pb-10">
+            <p className="mb-5 font-bold text-center">Music Therapy</p>
+            <p className="w-full px-10 pb-10 text-xs text-center">
               Explore a curated selection of meditation, calm, and relaxing
               music designed to promote mental well-being and relaxation.
               Whether you're seeking stress relief, mindfulness, or emotional
@@ -125,7 +125,7 @@ const Hero = () => {
               life's pressures. Join us to experience the transformative effects
               of music on your mental health journey.
             </p>
-            <Link to="/MusicTherapy">
+            <Link to="/musictherapy">
               <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none inline-flex items-center font-serif">
                 Click More
                 <img src={arrow} alt="" className="object-scale-down h-5 w-7" />
@@ -141,8 +141,8 @@ const Hero = () => {
               alt=""
               className="object-scale-down h-48 w-96 "
             />
-            <p className="font-bold text-center mb-5">Expression Gallery</p>
-            <p className="text-center text-xs w-full px-10 pb-10">
+            <p className="mb-5 font-bold text-center">Expression Gallery</p>
+            <p className="w-full px-10 pb-10 text-xs text-center">
               Share your thoughts, poems, artistic works, and more in a
               supportive and empowering community space. Whether through words,
               visuals, or other forms of expression, our platform provides a
@@ -158,18 +158,18 @@ const Hero = () => {
         <h1 className="flex mt-[80px] mb-[60px] text-black font-bold text-4xl font-sans">
           About Us
         </h1>
-        <div className="flex felx-wrap flex-row space-x-2 mx-20 mb-10 ">
-          <div className="flex flex-row w-1/2  mx-5">
-            <img src={about1} alt="" className="flex size-80  " />
-            <img src={about2} alt="" className="flex size-80 self-end pr-4" />
+        <div className="flex flex-row mx-20 mb-10 space-x-2 felx-wrap ">
+          <div className="flex flex-row w-1/2 mx-5">
+            <img src={about1} alt="" className="flex size-80 " />
+            <img src={about2} alt="" className="flex self-end pr-4 size-80" />
           </div>
           <div className="mx-10 "> </div>
-          <div className=" w-1/2 ">
+          <div className="w-1/2 ">
             <div>
               <p className="text-[#0A2351] font-bold text-2xl font-sans py-3">
                 Our Purpose
               </p>
-              <p className="text-white text-justify font-serif">
+              <p className="font-serif text-justify text-white">
                 At SoulCare+, our purpose is to cultivate a nurturing
                 environment where individuals are embraced for who they are in
                 this moment, while also fostering the potential for personal
@@ -182,7 +182,7 @@ const Hero = () => {
               <p className="text-[#0A2351] font-bold text-2xl font-sans py-3">
                 Our Vision
               </p>
-              <p className="text-white text-justify font-serif">
+              <p className="font-serif text-justify text-white">
                 SoulCare+ envisions a society characterized by kindness,
                 heightened awareness, and individual accountability. We strive
                 to contribute to the creation of a healthier world by promoting
@@ -193,7 +193,7 @@ const Hero = () => {
               <p className="text-[#0A2351] font-bold text-2xl font-sans py-3">
                 Our Mission
               </p>
-              <p className="text-white text-justify font-serif">
+              <p className="font-serif text-justify text-white">
                 We are a compassionate community dedicated to making mental
                 health care accessible to everyone, irrespective of cultural
                 identity or socioeconomic status. SoulCare+ achieves this
