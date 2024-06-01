@@ -149,10 +149,12 @@ const Hero = () => {
               safe environment to share your innermost thoughts and feelings.
               Join us to connect with this journey.
             </p>
-            <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer border-0 outline-none inline-flex items-center font-serif">
-              Click More
-              <img src={arrow} alt="" className="object-scale-down h-5 w-7" />
-            </button>
+            <Link to="/expressiongallery">
+              <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer border-0 outline-none inline-flex items-center font-serif">
+                Click More
+                <img src={arrow} alt="" className="object-scale-down h-5 w-7" />
+              </button>
+            </Link>
           </div>
         </div>
         <h1 className="flex mt-[80px] mb-[60px] text-black font-bold text-4xl font-sans">

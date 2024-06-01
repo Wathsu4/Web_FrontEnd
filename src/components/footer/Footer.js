@@ -19,7 +19,10 @@ function Footer() {
             <li className="font-serif list-disc ml-5">
               Mental Health Assessment
             </li>
-            <li className="font-serif list-disc ml-5">Expression Gallery</li>
+
+            <li className="font-serif list-disc ml-5">
+              <Link to="/expressiongallery">Expression Gallery</Link>
+            </li>
 
             <li className="font-serif list-disc ml-5">
               <Link to="/musictherapy">Music Therapy</Link>

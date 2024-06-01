@@ -39,7 +39,9 @@ function NavBar() {
                 <li>Professional Support</li>
                 <li>Anonymous Peer Support</li>
                 <li>Mental Health Assessment</li>
-                <li>Expression Gallery</li>
+                <Link to="/expressiongallery">
+                  <li>Expression Gallery</li>
+                </Link>
                 <Link to="/musictherapy">
                   <li>Music Therapy</li>
                 </Link>

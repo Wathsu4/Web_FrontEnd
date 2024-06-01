@@ -7,6 +7,7 @@ import Hero from "./pages/Hero";
 import Background from "./components/background/Background";
 import MusicTherapy from "./pages/MusicTherapy";
 import ScrollToTop from "./components/ScrollToTop";
+import ExpressionsGallery from "./pages/ExpressionsGallery";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/musictherapy" element={<MusicTherapy />} />
+          <Route path="/expressiongallery" element={<ExpressionsGallery />} />
         </Routes>
       </Router>
     </Background>
