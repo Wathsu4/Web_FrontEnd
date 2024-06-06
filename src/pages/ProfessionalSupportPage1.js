@@ -3,12 +3,14 @@ import React from "react";
 import NavBar from "../components/navbar/NavBar.js";
 import Footer from "../components/footer/Footer.js";
 import Background from "../components/background/Background.js";
+import { Link } from "react-router-dom";
 
 import ProffSupimg from "../assets/ProfessionalSupport/ProffSupimg.jpg";
 import Doctor1img from "../assets/ProfessionalSupport/Doctor1img.jpg";
 import Doctor2img from "../assets/ProfessionalSupport/Doctor2img.jpg";
 import Doctor3img from "../assets/ProfessionalSupport/Doctor3img.jpg";
 import arrow from "../assets/arrow-right 1.png";
+
 
 function ProfessionalSupportPage1() {
   return (
@@ -48,12 +50,12 @@ function ProfessionalSupportPage1() {
               </div>
               
               <p className="pb-4 m-3 ml-4 text-sm text-pretty">More than 12 years of experience working with individuals, families and couples. Speclized in mental health and Abnormal Psychology, emotional intelligence, family counseling, sexual health, NLP, CBT, IPSRT, ART PSYCHOTHERAPY, COACHING, Career Counseling, Relationship Counseling, Psychometric testing and so on ...</p>
-              
+              <Link to="/viewprofessionalprofile">
               <button  className="absolute bottom-0 right-0 bg-[#adbbda] text-sm text-black px-[30px] p-[5px]  mb-3 text-s rounded-[30px] cursor-pointer  outline-none inline-flex items-center font-serif hover:bg-[#87a4e0d0]">
                 View Profile
                 <img src={arrow} alt="" className="object-scale-down h-5 w-7" />
               </button>
-
+              </Link>
             </div>
       </div>
 
@@ -70,12 +72,12 @@ function ProfessionalSupportPage1() {
               </div>
               
               <p className="pb-4 m-3 ml-4 text-sm text-pretty">More than 12 years of experience working with individuals, families and couples. Speclized in mental health and Abnormal Psychology, emotional intelligence, family counseling, sexual health, NLP, CBT, IPSRT, ART PSYCHOTHERAPY, COACHING, Career Counseling, Relationship Counseling, Psychometric testing and so on ...</p>
-              
+              <Link to="/viewprofessionalprofile">
               <button  className="absolute bottom-0 right-0 bg-[#adbbda] text-sm text-black px-[30px] p-[5px]  mb-3 text-s rounded-[30px] cursor-pointer  outline-none inline-flex items-center font-serif hover:bg-[#87a4e0d0]">
                 View Profile
                 <img src={arrow} alt="" className="object-scale-down h-5 w-7" />
               </button>
-
+              </Link>
             </div>
       </div>
 
@@ -92,12 +94,12 @@ function ProfessionalSupportPage1() {
               </div>
               
               <p className="pb-4 m-3 ml-4 text-sm text-pretty">More than 12 years of experience working with individuals, families and couples. Speclized in mental health and Abnormal Psychology, emotional intelligence, family counseling, sexual health, NLP, CBT, IPSRT, ART PSYCHOTHERAPY, COACHING, Career Counseling, Relationship Counseling, Psychometric testing and so on ...</p>
-              
+              <Link to="/viewprofessionalprofile">
               <button  className="absolute bottom-0 right-0 bg-[#adbbda] text-sm text-black px-[30px] p-[5px]  mb-3 text-s rounded-[30px] cursor-pointer  outline-none inline-flex items-center font-serif hover:bg-[#87a4e0d0]">
                 View Profile
                 <img src={arrow} alt="" className="object-scale-down h-5 w-7" />
               </button>
-
+              </Link>
             </div>
       </div>
 
