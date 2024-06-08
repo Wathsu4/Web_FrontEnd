@@ -3,6 +3,7 @@ import facebook from "../../assets/icons/icons8-facebook-30.png";
 import twitter from "../../assets/icons/icons8-twitter-30.png";
 import google from "../../assets/icons/icons8-google-plus-32.png";
 import phone from "../../assets/icons/icons8-phone-48.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -11,14 +12,21 @@ function Footer() {
         <div className="flex flex-col ml-10 my-5">
           <p className="font-bold text-xl font-serif mb-2">Services</p>
           <ul className=" space-y-2">
-            <li className="font-serif list-disc ml-5">Professinal Support</li>
+            <li className="font-serif list-disc ml-5">Professional Support</li>
             <li className="font-serif list-disc ml-5">
               Anonymous Peer Support
             </li>
             <li className="font-serif list-disc ml-5">
               Mental Health Assessment
             </li>
-            <li className="font-serif list-disc ml-5">Expression Gallery</li>
+
+            <li className="font-serif list-disc ml-5">
+              <Link to="/expressiongallery">Expression Gallery</Link>
+            </li>
+
+            <li className="font-serif list-disc ml-5">
+              <Link to="/musictherapy">Music Therapy</Link>
+            </li>
           </ul>
         </div>
         <div className="flex flex-col mr-10  my-5">
