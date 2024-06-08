@@ -10,6 +10,7 @@ import image6 from "../assets/expressionsgallery/image6.png";
 import arts from "../assets/expressionsgallery/arts.png";
 import poems from "../assets/expressionsgallery/poems.png";
 import handcraft from "../assets/expressionsgallery/handcraft.png";
+import { Link } from "react-router-dom";
 
 function ExpressionsGallery() {
   return (
@@ -36,7 +37,7 @@ function ExpressionsGallery() {
             </div>
 
             <div className="flex pt-6 ">
-              <button className=" bg-gradient-to-b from-[rgba(153,133,102,0.7)] to-[rgba(153,133,102,0.1)] text-black px-[30px] p-[5px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none  items-center font-serif">
+              <button className=" bg-[#4D647C] bg-opacity-85 text-black px-[30px] p-[5px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none  items-center font-serif">
                 Submit Your Art
               </button>
             </div>
@@ -60,21 +61,27 @@ function ExpressionsGallery() {
       <div className="flex justify-center space-x-20 py-[100px]">
         <div className="flex flex-col">
           <img src={arts} alt="" className=" " />
-          <button className=" bg-gradient-to-b from-[rgba(153,133,102,0.7)] to-[rgba(153,133,102,0.1)] text-black px-[30px] p-[5px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none  items-center font-serif">
-            Arts
-          </button>
+          <Link to="/arts">
+            <button className=" bg-[#4D647C] bg-opacity-85 text-black ml-3 px-[80px] p-[8px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none  items-center font-serif ">
+              Arts
+            </button>
+          </Link>
         </div>
         <div className="flex flex-col">
           <img src={poems} alt="" className=" " />
-          <button className=" bg-gradient-to-b from-[rgba(153,133,102,0.7)] to-[rgba(153,133,102,0.1)] text-black px-[10px] p-[5px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none  items-center font-serif">
-            Poems
-          </button>
+          <Link to="/poems">
+            <button className=" bg-[#4D647C] bg-opacity-85 text-black ml-3 px-[80px] p-[8px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none  items-center font-serif">
+              Poems
+            </button>
+          </Link>
         </div>
         <div className="flex flex-col">
           <img src={handcraft} alt="" className=" " />
-          <button className=" bg-gradient-to-b from-[rgba(153,133,102,0.7)] to-[rgba(153,133,102,0.1)] text-black px-[30px] p-[5px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none  items-center font-serif">
-            Hand Crafts
-          </button>
+          <Link to="/handcraft">
+            <button className=" bg-[#4D647C] bg-opacity-85 text-black ml-3 px-[60px] p-[8px] mb-3 text-s rounded-[30px] cursor-pointer  outline-none  items-center font-serif">
+              Hand Crafts
+            </button>
+          </Link>
         </div>
       </div>
       <Footer />
