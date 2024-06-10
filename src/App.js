@@ -11,7 +11,6 @@ import ExpressionsGallery from "./pages/ExpressionsGallery";
 import Arts from "./pages/Arts";
 import Poems from "./pages/Poems";
 import HandCraft from "./pages/HandCraft";
-
 function App() {
   return (
     <Background>
