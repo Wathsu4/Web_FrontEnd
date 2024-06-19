@@ -19,19 +19,9 @@ export const data = {
       D: "Not at all",
     },
     results: [
-      {
-        scoreRange: ">=15",
-        interpretation:
-          "Significant depressive symptoms. Seek professional evaluation.",
-      },
-      {
-        scoreRange: "5-14",
-        interpretation: "Mild depressive symptoms.",
-      },
-      {
-        scoreRange: "<5",
-        interpretation: "Not experiencing significant depressive symptoms.",
-      },
+      "Significant depressive symptoms. Seek professional evaluation for possible treatment options.",
+      "Mild depressive symptoms. Consider consulting a mental health professional for advice and coping strategies.",
+      "No significant depressive symptoms. Maintain healthy habits and monitor your mental well-being.",
     ],
   },
 
@@ -56,19 +46,9 @@ export const data = {
     },
 
     results: [
-      {
-        scoreRange: ">=15",
-        interpretation:
-          "Significant anxiety symptoms. Seek professional evaluation.",
-      },
-      {
-        scoreRange: "5-14",
-        interpretation: "Mild anxiety symptoms.",
-      },
-      {
-        scoreRange: "<5",
-        interpretation: "Not experiencing significant anxiety symptoms.",
-      },
+      "Significant anxiety symptoms. Seek professional evaluation to explore treatment options.",
+      "Mild anxiety symptoms. Consider consulting a mental health professional for advice and coping strategies.",
+      "Not experiencing significant anxiety symptoms. Maintain healthy habits and monitor your mental well-being.",
     ],
   },
 
@@ -92,20 +72,9 @@ export const data = {
       D: "No, never",
     },
     results: [
-      {
-        scoreRange: ">=15",
-        interpretation:
-          "Significant symptoms of bipolar disorder. Seek professional evaluation.",
-      },
-      {
-        scoreRange: "5-14",
-        interpretation: "Mild symptoms of bipolar disorder.",
-      },
-      {
-        scoreRange: "<5",
-        interpretation:
-          "Not experiencing significant symptoms of bipolar disorder.",
-      },
+      "Significant symptoms of bipolar disorder. Seek professional evaluation.",
+      "Mild symptoms of bipolar disorder. Consider consulting a mental health professional.",
+      "Not experiencing significant symptoms of bipolar disorder. Maintain healthy habits and monitor your mental well-being.",
     ],
   },
   Schizophrenia: {
@@ -128,20 +97,9 @@ export const data = {
       D: "Never",
     },
     results: [
-      {
-        scoreRange: ">=15",
-        interpretation:
-          "Significant symptoms of schizophrenia. Seek professional evaluation.",
-      },
-      {
-        scoreRange: "5-14",
-        interpretation: "Mild symptoms of schizophrenia.",
-      },
-      {
-        scoreRange: "<5",
-        interpretation:
-          "Not experiencing significant symptoms of schizophrenia.",
-      },
+      "Significant symptoms of schizophrenia. Seek professional evaluation to discuss potential treatment options and management strategies.",
+      "Mild symptoms of schizophrenia. Consider consulting a mental health professional for advice on coping mechanisms and early intervention.",
+      "Not experiencing significant symptoms of schizophrenia. Maintain healthy habits, stay connected with supportive relationships, and monitor your mental well-being.",
     ],
   },
   PTSD: {
@@ -164,19 +122,9 @@ export const data = {
       D: "No, never",
     },
     results: [
-      {
-        scoreRange: ">=15",
-        interpretation:
-          "Significant symptoms of schizophrenia. Seek professional evaluation.",
-      },
-      {
-        scoreRange: "5-14",
-        interpretation: "Mild symptoms of PTSD.",
-      },
-      {
-        scoreRange: "<5",
-        interpretation: "Not experiencing significant symptoms of PTSD.",
-      },
+      "Significant symptoms of PTSD. It is advisable to seek a professional evaluation to discuss treatment options and management strategies.",
+      "Mild symptoms of PTSD. Consider consulting a mental health professional for guidance on coping strategies.",
+      "Not experiencing significant symptoms of PTSD. Continue to maintain healthy habits and monitor your well-being.",
     ],
   },
 };
