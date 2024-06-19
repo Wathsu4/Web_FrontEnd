@@ -11,6 +11,9 @@ import ExpressionsGallery from "./pages/ExpressionsGallery";
 import Arts from "./pages/Arts";
 import Poems from "./pages/Poems";
 import HandCraft from "./pages/HandCraft";
+import Assessment from "./pages/Assessment";
+import Quiz from "./pages/Quiz";
+
 function App() {
   return (
     <Background>
@@ -23,6 +26,8 @@ function App() {
           <Route path="/arts" element={<Arts />} />
           <Route path="/poems" element={<Poems />} />
           <Route path="/handcraft" element={<HandCraft />} />
+          <Route path="/assessment" element={<Assessment />} />
+          <Route path="/quiz" element={<Quiz />} />
         </Routes>
       </Router>
     </Background>

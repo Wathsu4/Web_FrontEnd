@@ -38,7 +38,9 @@ function NavBar() {
               <ul className="dropdown-menu">
                 <li>Professional Support</li>
                 <li>Anonymous Peer Support</li>
-                <li>Mental Health Assessment</li>
+                <Link to="/assessment">
+                  <li>Mental Health Assessment</li>
+                </Link>
                 <Link to="/expressiongallery">
                   <li>Expression Gallery</li>
                 </Link>

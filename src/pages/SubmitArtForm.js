@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useArtContext } from "../ArtContext";
+import NavBar from "../components/navbar/NavBar";
 
 function SubmitArtForm({ onSubmit, onClose }) {
   const { addSubmission } = useArtContext();
@@ -36,6 +37,7 @@ function SubmitArtForm({ onSubmit, onClose }) {
 
   return (
     <div className="relative flex justify-center items-center  fixed inset-0 z-50">
+      <NavBar />
       <div className="bg-zinc-400 border border-black  rounded-[0.5rem] p-8 max-w-lg w-full">
         <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
           <label>

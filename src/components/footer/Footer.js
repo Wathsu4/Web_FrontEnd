@@ -17,7 +17,7 @@ function Footer() {
               Anonymous Peer Support
             </li>
             <li className="font-serif list-disc ml-5">
-              Mental Health Assessment
+              <Link to="/assessment">Mental Health Assessment</Link>
             </li>
 
             <li className="font-serif list-disc ml-5">
