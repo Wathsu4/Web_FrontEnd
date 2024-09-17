@@ -13,6 +13,8 @@ import Poems from "./pages/Poems";
 import HandCraft from "./pages/HandCraft";
 import Assessment from "./pages/Assessment";
 import Quiz from "./pages/Quiz";
+import Payment from "./pages/payment";
+import PeerSup from "./pages/PeerSupport";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
           <Route path="/handcraft" element={<HandCraft />} />
           <Route path="/assessment" element={<Assessment />} />
           <Route path="/quiz" element={<Quiz />} />
+          <Route path="/payment" element={<Payment />} />
+          <Route path="/PeerSup" element={<PeerSup />} />
         </Routes>
       </Router>
     </Background>

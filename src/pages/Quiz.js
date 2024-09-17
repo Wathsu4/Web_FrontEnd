@@ -65,6 +65,12 @@ function Quiz() {
     }
   };
 
+  const prevQuiz = () => {
+    if (quizNumber > 0) {
+      setQuizNumber(quizNumber - 1);
+    }
+  };
+
   const recordAnswer = (quizNum, selectedAnswer) => {
     console.log("quiz num is:", quizNum);
     setQuizAnswers((prevState) => ({
@@ -165,12 +171,22 @@ function Quiz() {
             </div>
           ) : (
             <>
-              <button
-                className="m-auto w-[200px] h-[50px] bg-[#553f9a] text-[#fff] text-[18px] font-serif rounded-lg cursor-pointer"
-                onClick={() => nextQuiz()}
-              >
-                Next
-              </button>
+              <div className="flex justify-between px-10 py-5">
+                {quizNumber > 0 && (
+                  <button
+                    className="m-auto w-[100px] h-[35px] bg-[#553f9a] text-[#fff] text-[15px] font-serif rounded-lg cursor-pointer ml-4"
+                    onClick={() => prevQuiz()}
+                  >
+                    Back
+                  </button>
+                )}
+                <button
+                  className="m-auto w-[100px] h-[35px] bg-[#553f9a] text-[#fff] text-[15px] font-serif rounded-lg cursor-pointer mr-8 "
+                  onClick={() => nextQuiz()}
+                >
+                  Next
+                </button>
+              </div>
               <div className="flex font-serif text-[17px] text-[#262626] px-10 py-5 m-auto">
                 {quizNumber + 1} of {totalQuestions} questions
               </div>

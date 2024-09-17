@@ -37,7 +37,9 @@ function NavBar() {
             {dropdownOpen && (
               <ul className="dropdown-menu">
                 <li>Professional Support</li>
-                <li>Anonymous Peer Support</li>
+                <Link to="/PeerSup">
+                  <li>Anonymous Peer Support</li>
+                </Link>
                 <Link to="/assessment">
                   <li>Mental Health Assessment</li>
                 </Link>

@@ -14,7 +14,7 @@ function Footer() {
           <ul className=" space-y-2">
             <li className="font-serif list-disc ml-5">Professional Support</li>
             <li className="font-serif list-disc ml-5">
-              Anonymous Peer Support
+              <Link to="/PeerSup">Anonymous Peer Support</Link>
             </li>
             <li className="font-serif list-disc ml-5">
               <Link to="/assessment">Mental Health Assessment</Link>
