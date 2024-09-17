@@ -78,13 +78,15 @@ const Hero = () => {
               revealing your identity. Join our community and feel heard on your
               mental health journey.
             </p>
-            <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer border-0 outline-none inline-flex items-center font-serif">
-              Click More
-              <img src={arrow} alt="" className="object-scale-down h-5 w-7" />
-            </button>
+            <Link to="/PeerSup">
+              <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer border-0 outline-none inline-flex items-center font-serif">
+                Click More
+                <img src={arrow} alt="" className="object-scale-down h-5 w-7" />
+              </button>
+            </Link>
           </div>
           <div
-            className="flex flex-col 
+            className="flex flex-col w-1/5
         w-1/5 mb-5  items-center bg-[#64748b] text-white rounded-[80px] mx-10 justify-between "
           >
             <img
@@ -102,10 +104,12 @@ const Hero = () => {
               service to start your journey towards a happier and healthier
               life.
             </p>
-            <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer border-0 outline-none inline-flex items-center font-serif">
-              Click More
-              <img src={arrow} alt="" className="object-scale-down h-5 w-7" />
-            </button>
+            <Link to="/assessment">
+              <button className="bg-[#adbbda] text-black px-[30px] py-[5px] mb-3 text-s rounded-[30px] cursor-pointer border-0 outline-none inline-flex items-center font-serif">
+                Click More
+                <img src={arrow} alt="" className="object-scale-down h-5 w-7" />
+              </button>
+            </Link>
           </div>
           <div
             className="flex flex-col 
